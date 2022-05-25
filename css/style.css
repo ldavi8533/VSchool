@@ -152,7 +152,17 @@ section{
    color: var(--green);
 }
 
+.count .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+   gap: 1.5rem;
+   align-items: flex-start;
+}
 
+.count .box-container .box{
+    background-color: var(--light-bg);
+    
+}
 
 
 
